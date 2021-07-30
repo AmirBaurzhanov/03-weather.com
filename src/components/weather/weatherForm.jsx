@@ -29,7 +29,6 @@ const WeatherForm = (props) => (
                         onBlur={handleBlur}
                         value={values.text}
                     />
-                    {errors.text && touched.text && errors.text}
                     <button className="btn btn-secondary" type="submit" disabled={isSubmitting}>
                         Submit
                     </button>
